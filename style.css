@@ -1,0 +1,5044 @@
+/* Universal Css */
+*{
+	font-family: helvetica, sans-serif;
+}
+
+/*Leonald - News & Announcement Css*/
+
+/* News h1 */
+.leo-newshead{
+	color:black;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+/* News Body */
+
+
+.leo-newsbody{
+	background: #ECECEC;
+}
+
+.leo-newsbody nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.leo-newsbody nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leo-newsbody nav ul li {
+  display: inline;
+}
+
+.leo-newsbody nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.leo-newsbody nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+/* News Cards*/
+.leo-newscontainer{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.leo-news{
+	background: #EBECF0;
+	width: 270px;
+	margin: 10px;
+	border-radius: 15px;
+	box-shadow: 0 35px 80px rgba(0,0,0,0.3);
+}
+
+.leo-newsimage{
+	height: 170px;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.pic-1{
+	background-image: url('images/service.jpg')
+}
+
+.pic-2{
+	background-image: url('images/CarRec-3.jpg')
+}
+
+.pic-3{
+	background-image: url('images/CarRec-5.jpg')
+}
+
+.pic-4{
+	background-image: url('images/CarRec-6.jpg')
+}
+
+.pic-5{
+	background-image: url('images/CarRec-7.jpg')
+}
+
+.leo-news h3{
+	padding: 10px;
+}
+
+.leo-news p{
+	padding: 10px;
+	text-align: justify;
+}
+
+.leo-news a{
+	background-color: #32CD32;
+	color: white;
+	padding: 12px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+.leo-news:hover{
+	background-color: rgb(62,62,62);
+	color: #fff;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all 0.5s ease;
+}
+
+.leo-news:hover h3{
+	color: white;
+	transition: all 0.5s ease;
+}
+
+/* Leonald - About Us Css */
+
+/* About Us Body */
+.leo-aboutbody{
+	background-color: #f2f2f2;
+	
+}
+
+.leo-aboutbody{
+	background: #ECECEC;
+}
+
+.leo-aboutbody nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.leo-aboutbody nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.leo-aboutbody nav ul li {
+	display: inline;
+}
+
+.leo-aboutbody nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.leo-aboutbody nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+.leo-aboutheading{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.leo-aboutheading h1{
+	font-size: 50px;
+	color: #000;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.leo-aboutheading h1::after{
+	content:"";
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	display: block;
+	margin: 0 auto;
+	background-color: #4caf50;
+}
+
+.leo-aboutheading p{
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 35px;
+}
+
+.leo-aboutcontainer{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.leo-about1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.leo-about1image{
+	flex: 1;
+	margin-right: 40px;
+	overflow: hidden;
+}
+
+.leo-about1image img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	transition: 0.5s ease;
+}
+
+.leo-about1image:hover img{
+	transform: scale(1.2);
+}
+
+.leo-aboutcontent{
+	flex: 1;
+}
+
+.leo-aboutcontent h2{
+	font-size: 23px;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.leo-aboutcontent p{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+	text-align: justify;
+}
+
+.leo-about2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.leo-about2image{
+	flex: 1;
+	margin-right: 40px;
+	overflow: hidden;
+}
+
+.leo-about2image img{
+	max-width: 100%;
+	height: auto;
+	transition: 0.5s ease;
+}
+
+.leo-about2image:hover img{
+	transform: scale(1.2);
+}
+
+.leo-aboutcontent2{
+	flex: 1;
+}
+
+.leo-aboutcontent2 h2{
+	font-size: 23px;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.leo-aboutcontent2 p{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+	text-align: justify;
+}
+
+.leo-h3{
+	text-align: center;
+	margin: 70px auto;
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #333;
+	
+}
+
+.leo-aboutbody2 *{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.leo-aboutbody2{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 100px 50px;
+	padding: 50px 100px
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 350px;
+	height: 300px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+	transition: 0.5s;
+	
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard:hover{
+	height: 350px;
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard .leo-aboutimage{
+	position: absolute;
+	top: 20px;
+	width: 300px;
+	height:210px;
+	background: #333;
+	border-radius: 12px;
+	transition: 0.5s;
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard:hover .leo-aboutimage{
+	top: -100px;
+	transform: scale(0.75);
+	box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+	
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard .leo-aboutimage img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard .leo-aboutwords{
+	position: absolute;
+	top: 250px;
+	width: 100%;
+	padding: 0 30px;
+	text-align: center;
+	height: 20px;
+	overflow: hidden;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard:hover .leo-aboutwords{
+	height: 250px;
+	top: 130px;
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard .leo-aboutwords h4{
+	font-size: 1.2em;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.leo-aboutbody2 .leo-aboutcontainer2 .leo-aboutcard .leo-aboutwords p{
+	color: #333;
+}
+
+
+/* Leonald - Locate Us */
+
+
+.leo-locatebody {
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.leo-locatebody{
+	background: #ECECEC;
+}
+
+.leo-locatebody nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.leo-locatebody nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leo-locatebody nav ul li {
+  display: inline;
+}
+
+.leo-locatebody nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.leo-locatebody nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+.leo-locatebody h1,h2,h3{
+  color: #333;
+  margin-top: 0;
+}
+
+.leo-locatebody h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.leo-locatebody .leo-locatesection h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.leo-locatebody .leo-locatesection h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leo-locatebody .leo-locatesection p {
+  margin-bottom: 10px;
+}
+
+.leo-locatebody .leo-locatesection ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Header */
+.leo-locatebody header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Sections */
+.leo-locatesection {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leo-locatebody .leo-locatesection img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Locations */
+.leo-locatesection ul li {
+  margin-bottom: 20px;
+}
+
+/* Visit Us */
+.leo-locatefoot {
+  background-color: #ECECEC;
+  padding: 10px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* Andrew - Purchasing Guide Css */
+
+/* background color */
+.andrew2_body{
+	background:#ECECEC;
+}
+
+/* Navigation */
+.andrew2_body nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.andrew2_body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.andrew2_body nav ul li {
+  display: inline;
+}
+
+.andrew2_body nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.andrew2_body nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+.andrew2_read{
+	margin: 150px auto;
+	width: 70%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.andrew2_read .andrew2_head2{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+}
+
+.andrew2_read .andrew2_p{
+	line-height: 1.4;
+	text-align: justify;
+	margin-bottom: 5px;
+	
+}
+
+#check{
+	display: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.andrew2_content{
+	display: none;
+	transition: 0.5s linear;
+}
+
+.andrew2_label{
+	display: inline-block;
+	margin-top: 15px;
+	color: #E03B8B;
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+#check:checked ~ .andrew2_content{
+	display: block;
+}
+
+#check:checked ~ .andrew2_label{
+	visibility: hidden;
+}
+
+#check:checked ~ .andrew2_label:after{
+	content: 'Show Less';
+	display: block;
+	visibility: visible;
+}
+
+.andrew2_imgguide{
+	max-width: 400px;
+	float: left;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+}
+
+.andrew2_cone{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	border-radius: 20px;
+	top: 20px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 0;
+	vertical-align: bottom;
+	clear: both;
+}
+
+.andrew2_purchasing_article{
+    margin: auto;
+}
+
+#andrew2_body_id .andrew2_cone {
+    box-sizing: content-box !important;
+}
+
+#andrew2_body_id > article > div.andrew2_cone > div{
+    box-sizing: content-box;
+}
+
+.andrew2_h1{
+	text-align: center;
+	font-size: 50px;
+    font-weight: bold;
+}
+
+.andrew2_hr{
+	border: none;
+	border-top: 1px solid green;
+	margin: 20px 0; 
+}
+
+.andrew2_para{
+	text-align: center;
+	font-size: 18px;
+    font-weight: bold;
+	text-align: justify;
+}
+
+.andrew2_cone .andrew2_card{
+	max-width: 300px;
+	height: 215px;
+	position: relative;
+	background: #fff;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s ease-in-out;
+	background-color: #f5f5f5;
+	border-radius: 20px;
+	border: 1px solid green;
+	
+}
+
+.andrew2_cone .andrew2_card:hover{
+	height: 430px;
+}
+
+.andrew2_cone .andrew2_card .imgBx{
+	position: relative;
+	top: -60px;
+	left: 20px;
+	z-index: 5;
+}
+
+.andrew2_cone .andrew2_card .imgBx img{
+	max-width: 100%;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.andrew2_cone .andrew2_card .andrew2_coten{
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+
+.andrew2_cone .andrew2_para, .andrew2_h2{
+	font-size: 17px;
+    font-weight: bold;
+}
+
+.andrew2_cone .andrew2_card .andrew2_coten .andrew2_para{
+	text-align: justify;
+}
+
+.andrew2_cone .andrew2_card:hover .andrew2_coten{
+	visibility: visible;
+	opacity: 100;
+	margin-top: -1px;
+	transition-delay: 0.3s;
+}
+
+
+/* Andrew - Feedback Css */
+
+.andrew_header h1{
+	font-size: 50px;
+	text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.andrew_header p{
+	text-align: center;
+    margin-bottom: 1em;
+}
+
+.andrew_body{
+	background-color: #ECECEC;
+}
+
+.andrew_body nav {
+  text-align: right;
+  padding: 20px;
+}
+
+.andrew_body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.andrew_body nav ul li {
+  display: inline;
+}
+
+.andrew_body nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 1.0em;
+  font-weight: 500;
+}
+
+.andrew_body nav ul li a:hover{
+	text-decoration: underline;
+	width: 100%;
+}
+
+.andrew_form {
+	max-width: 650px;
+	margin: auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+
+.andrew_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.andrew_td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+.andrew_date[type = "date"],
+.andrew_time[type = "time"]{
+	margin-bottom: 20px;
+}
+
+.andrew_textarea {
+  height: 150px;
+}
+
+.andrew_submit[type="submit"],
+.andrew_reset[type="reset"] {
+  padding: 10px;
+  background-color: #98f321;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.andrew_reset[type="reset"] {
+  background-color: #fc3408;
+}
+
+.andrew_submit[type="submit"]:hover,
+.andrew_reset[type="reset"]:hover {
+  background-color: #95e8be;
+}
+
+.andrew_fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.andrew_legend{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.andrew_radio[type="radio"],
+.andrew_checkbox[type="checkbox"] {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.andrew_name[type="text"],
+.andrew_email[type="email"],
+.andrew_number[type="text"],
+.andrew_textarea,
+.andrew_select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+
+.andrew_select {
+	height: 40px;
+	background-color: #ECECEC;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 15px 15px;
+	padding-right: 25px;
+}
+
+
+
+/* Andrew - Recommendation Css */
+#andrew3_body_id > article > div.andrew3_model > div.andrew3_RM{
+    box-sizing: content-box;
+}
+
+#andrew3_body_id > article > div.andrew3_carcontainer > div{
+    box-sizing: content-box;
+}
+
+body > article > div.andrew3_model > div.andrew3_RM{
+    box-sizing: content-box;
+}
+
+body > article > div.andrew3_carcontainer > div{
+    box-sizing: content-box;
+}
+
+.andrew3_body{
+	background-color: #ECECEC;
+}
+
+.andrew3_body nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.andrew3_body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.andrew3_body nav ul li {
+  display: inline;
+}
+
+.andrew3_body nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.andrew3_body nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+
+.andrew3_recommendation{
+	text-align: center;
+	font-size: 50px;
+}
+
+.andrew3_recommendation{
+    margin-bottom: 0.7em;
+}
+
+.andrew3_article .andrew3_ps{
+	text-align: center;
+	font-size: 30px;
+}
+
+.andrew3_ps{
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.andrew3_price {
+	padding: 16px 32px;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	width: 300px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: .3px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.andrew3_price:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.andrew3_carcontainer{
+		border-radius: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30px;
+		
+}
+	
+.andrew3_carcontainer .andrew3_carcard{
+		max-width: 300px;
+		height: 350px;
+		position: relative;
+		background: #fff;
+		margin: 10px 10px;
+		padding: 20px 15px;
+		border: 2px solid black;
+}
+	
+.andrew3_click {
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	  background-color: white;
+	  color: black;
+	  text-align: center;
+	  font-weight: 500;
+	  line-height: 24px;
+	  border-radius: 6px;
+	  border: 1px solid #b3bac4;
+}
+	
+.andrew3_cardetails .andrew3_carname{
+		font-weight: bold;
+		font-size: 17px;
+}
+
+.andrew3_Back:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+.andrew3_Back{
+	padding: 12px 32px;
+	cursor: pointer;
+	background-color: white;
+	font-size: 16px;
+	letter-spacing: .3px;
+	border-radius: 10px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.andrew3_model .andrew3_result{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #2e2e2e;
+	margin-bottom: 8px;
+	margin-left: 20px;
+}
+
+.andrew3_model .andrew3_RM{
+	overflow-x:auto;
+	padding: 10px 20px;
+	height: 32px;
+	width: 190px;
+	line-height: 32px;
+	background: #ecf3f9;
+	color: black;
+	border-radius: 16px;
+	font-weight: 400;
+	font-size: 16px;
+	white-space: nowrap;
+	margin-left: 20px;
+	text-align: center;
+	letter-spacing: .3px;
+}
+
+
+
+/* Shane - Comparison Table */
+
+.shanetablebody{
+	background: white;
+}
+
+.shanetablebody nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.shanetablebody nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.shanetablebody nav ul li {
+	display: inline;
+}
+
+.shanetablebody nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.shanetablebody nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+.cartable h2,p{
+	margin-left: 2%;
+}
+
+.table_header {
+	width: 96%;
+	height: 10%;
+	padding-left: 2%;
+}
+
+body > article > div > section{
+    padding: 0;
+}
+
+.table_header hr{
+	margin-top: -1%;
+}
+
+.table_header h3{
+	font-size: 25px;
+}
+
+th:nth-child(1) {
+	width: 15%;
+}
+
+.table_body {
+	text-align: center;
+	width: 95%;
+	margin: .5rem auto;
+	overflow: auto;
+}
+
+.table table.shane{
+	box-shadow: .4rem .8rem #0005;
+	border-radius: .8rem;
+}
+
+
+.table_body tr td img {
+	width: 55%;
+	height: 60%;
+	display: block;
+	align-items: center;
+	margin: 0 auto;
+}
+
+table.shane, th, td {
+	padding: 1rem;
+	border: 1px solid;
+}
+
+table.shane {
+	border-collapse: collapse;
+}
+
+thead tr th {
+	background-color: #D5D1DEFE;
+	
+}
+
+.shanetbody tr:nth-child(even) {
+	background-color: #0000000B;
+}
+
+.shanetbody tr:hover {
+	background-color: #D3D3D3;
+}
+
+.status {
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	padding: .4rem 0;
+	border-radius: 2rem;
+}
+
+.status.sedan {
+	background-color: #d893a3;
+	color: #b30021;
+}
+
+.status.suv {
+	background-color: #afdcec;
+	color: #00008b;
+}
+
+.status.coupe {
+	background-color: #ebc474;
+	color: #5e4e2e;
+}
+
+.status.sav {
+	background-color: #86e49d;
+	color: #006b21;
+}
+
+.status.truck {
+	background-color: #d8bfd8;
+	color: #301934;
+}
+
+
+/* Shane - Loan Calculator */
+
+
+.shaneloanbody nav{
+	text-align: right;
+	padding: 20px;
+}
+
+.shaneloanbody nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.shaneloanbody nav ul li {
+	display: inline;
+}
+
+.shaneloanbody nav ul li a {
+	position: relative;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.shaneloanbody nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+
+.shaneloanbody {
+	margin: 0 auto;
+	background-color: #ECECEC;
+}
+
+.loan_container {
+	background-color: white;
+	text-align: center;
+	width: 60%;
+	margin: 2% auto;
+	padding-bottom: 8%;
+	border: 1px solid #ccc;
+	border-radius: 1rem;
+	box-shadow: 0 0 .6rem #d3d3d3;
+}
+.loan_container h2{
+	margin-top: 5%;
+}
+
+.loan_h2 {
+	font-size: 28px;
+}
+
+.loan_form {
+	max-width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-top: 1%;
+}
+
+.loan_label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.loan_input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.loan_input:hover {
+	background-color:#f2f2f2;
+}
+
+
+.shaneloanbutton {
+	font-size: 20px;
+	background-color: #db151f;
+	color: white;
+	margin: 1%;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 1.5rem;
+	cursor: pointer;
+}
+
+.shaneloanbutton:hover {
+	box-shadow: 0px 0px 10px -3px #db151f;
+}
+
+
+/* CarRec Group Member Page Css */
+
+
+.group-body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #ECECEC;
+}
+
+/* Style the header */
+/* Style the group header */
+.group-header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.group-header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.group-header hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Style the navigation */
+.group-body nav {
+  text-align: right;
+  padding: 20px;
+}
+
+.group-body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.group-body nav ul li {
+  display: inline;
+}
+
+.group-body nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 1.0em;
+  font-weight: 500;
+}
+
+.group-body nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+
+/* Style the article */
+.group-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+/* Style the group container */
+.group-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 70px;
+  width: 100%;
+}
+
+.group-container .group-image {
+  flex-basis: 40%;
+}
+
+.group-container .group-text {
+  flex-basis: 60%;
+  padding: 0 20px;
+}
+
+.group-container h2,
+.group-container h3,
+.group-container h4,
+.group-container h5,
+.group-container h6 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.group-container p {
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.group-container a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.group-container a:hover {
+  text-decoration: underline;
+}
+
+/* Style the images */
+.group-pic {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Shane - Car Market Price */
+
+.allmarket * {
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+}
+
+.shane_marketbody nav {
+  text-align: right;
+  padding: 20px;
+}
+
+.shane_marketbody  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.shane_marketbody  nav ul li {
+  display: inline;
+}
+
+.shane_marketbody  nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 1.0em;
+  font-weight: 500;
+}
+
+.shane_marketbody  nav ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #32CD32;
+	width: 100%;
+}
+
+.shane_marketbody {
+	background-color: #ECECEC;
+	padding: 2%;
+}
+
+.main_market{
+	max-width: 100%;
+	margin: 0 auto;
+	margin-left: 5%;
+	margin-right: 5%
+}
+
+.main_market h1{
+	font-size: 40px;
+	word-break: break-all;
+}
+
+.row{
+	margin: 8px -16px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+.column{
+	float: left;
+	width: 33.33%;
+	display: none; /* Hide columns by default */
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content_shane_market{
+	background-color: white;
+	padding: 30px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* The "show" class is added to the filtered elements */
+.show{
+	display: block;
+}
+
+/* Style the buttons */
+.price{
+	width: 11%;
+	border: none;
+	outline: none;
+	padding: .75rem;
+	border-radius: .75rem;
+	background-color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+
+/* Add a grey background color on hover */
+.price:hover{
+	background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.price.active{
+	background-color: #000000;
+	color: white;
+}
+
+body > article > div > section > h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.market_img h2,h3 {
+	position: relative;
+}
+
+.main_market h2 {
+	font-weight: 400;
+}
+
+.main_market h3 {
+	font-weight: 300;
+}
+
+.main_market hr {
+	border-top: 1px solid black;
+	margin: 20px 0;
+}
+.market_img {
+	width: 100%;
+	height: 60%;
+	transition: .3s;
+	margin: 0 auto;
+	justify-content: center;
+	object-fit: cover;
+}
+
+/*Check price button*/
+.price_button {
+	width: 50%;
+	border: none;
+	outline: none;
+	padding: 1rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	transition: transform .3s;
+}
+
+.price_button:hover {
+	color: #ade628;
+	transform: scale(1.05)
+	
+}
+
+.market_img:hover {
+	transform: translateX(-.25rem);
+}
+
+/* Kelvin */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+#proton_header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+#proton_header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+#perodua_header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;   
+}
+
+#perodua_header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+#toyota_header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif; 
+}
+
+#toyota_header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+#benzheader{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+#nissan_header_id > div > header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+#benzheader header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+#bodybuycar header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+#index {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+#index > header{
+    box-sizing: border-box;
+}
+
+#index header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+}
+
+#bodybuycar > header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+}
+
+#bmwheader{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;
+    transition: 0.5s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .cap{
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* THis ipapwidojaofjoaijfoisjfoajof */
+header .nav .nav-item a{
+    position: relative;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav .nav-item a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav .nav-item a:hover:before{
+    width: 100%;
+}
+
+section{
+    padding: 5% 10%;
+}
+
+.index{
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* dont change this plz */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #000000; /* Microsoft Blue #00A4EF */
+}
+
+/* z-index is for prio the stack order */
+#index .index .content{
+    color: #fff;
+    width: 70%;
+    margin-top: 1%; /* ini utk create a gap upon the content */
+    z-index: 777;
+}
+
+.index .content h1{
+    font-size: 5vw;
+    font-weight: 900;
+    line-height: 7.5vw;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    margin-bottom: 5vw; /* Same with line 73 */
+}
+
+.index .content h1 span{
+    font-size: 5.0vw;
+    font-weight: 500;
+}
+
+#index > section > div > p > span{
+    font-size: 30px;
+}
+
+.index .content a{
+    background: #fff;
+    padding: 1.5vw 3.5vw;
+    font-size: 1.0vw;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #000000;
+}
+
+.index .content p{
+    margin-bottom: 5vw;
+}
+
+.index .social-icon {
+    z-index: 888;
+    position: absolute;
+    right: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+.index .social-icon a {
+    color: #fff;
+    font-size: 1.6vw;
+}
+
+.social-icon a:not(:last-child) {
+    margin-bottom: 2vw;
+}
+
+.social-icon a:hover {
+    transform: scale(1.3);
+}
+
+/* Media queries */
+@media (max-width: 1040px){
+    header{
+        padding: 2% 5%;
+    }
+    
+    section{
+        padding: 10% 5%;
+    }
+    
+    .index .social-icon{
+        right: 2%;
+    }
+    
+    header .nav{
+        display: none;
+    }
+    
+    header .nav.active{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1,0,0,0.5);
+    }
+    
+    header .nav.active .nav-item{
+        background: #fff;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 6px;
+        box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    }
+    
+    header .nav .nav-item a{
+        color: #222;
+        font-size: 1.2em;
+        margin: 1.0em;
+    }
+    
+    header .nav .nav-item a:before{
+        background: #222;
+        height: 0.1vw;
+    }
+
+    /* Navigation button */
+    .menu-btn{
+        background: url(images/menu.png)no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    
+    .menu-btn.active{
+        z-index: 999;
+        background: url(images/close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+}
+
+
+
+/* Video */
+.index video{
+    z-index: ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Slide Nav Button */
+slidenav {
+    z-index: 800;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(7%);
+    margin-bottom: 2%;
+}
+
+/* Dropdown */
+/* Home Dropdown */
+.dropdown-content-home {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 20;
+    margin-top: 0; 
+    margin-left: 0;
+}
+
+.dropdown-content-home a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content-home {
+    display: block;
+}
+
+/* Buycar Dropdown */
+.dropdown-content-buycar {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 20;
+    margin-top: 0; 
+    margin-left: 27%;
+}
+
+.dropdown-content-buycar a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content-buycar {
+    display: block;
+}
+
+
+/* buycar.html */
+#bodybuycar{
+    background-color: #fff;
+}
+
+header .cap1{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* THis ipapwidojaofjoaijfoisjfoajof */
+header .nav1 .nav-item1 a{
+    position: relative;
+    color: #000000;
+    font-size: 1.2em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav1 .nav-item1 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav1 .nav-item1 a:hover:before{
+    width: 100%;
+}
+
+#index h2{
+    color: #000000;
+    padding-left: 45%;
+    font-family: "Helvetica", sans-serif;
+}
+
+.tcarbrands {
+  font-family: "Helvetica", sans-serif;
+  color: #fff;
+}
+
+.tcarbrands td {
+  padding: 20px;
+  position: relative;
+  height: 300px;
+}
+
+.img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Add this line to include padding in height calculation */
+}
+
+.img-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: blur(0);
+  transition: filter 0.3s ease-out;
+  margin: 0 auto;
+  height: auto; /* Set the height of the image to 100% of the img-container */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  text-align: center;
+  color: #fff;
+}
+
+.overlay-content a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.overlay-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.overlay-content p {
+  font-size: 1.2rem;
+}
+
+#bodybuycar .social-icon1 {
+    z-index: 888;
+    position: absolute;
+    right: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+#bodybuycar .social-icon1 a {
+    color: #000000;
+    font-size: 1.6vw;
+}
+
+#bodybuycar .social-icon1 a:not(:last-child) {
+    margin-bottom: 2vw;
+}
+
+.social-icon1 a:hover {
+    transform: scale(1.3);
+}
+
+/* Perodua Test */
+header .cap2{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .nav2 .nav-item2 a{
+    position: relative;
+    color: #000000;
+    font-size: 0.7em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav2 .nav-item2 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav2 .nav-item2 a:hover:before{
+    width: 100%;
+}
+
+.wrapper{
+  max-width: 100%;
+  width: 100%;
+  margin: 100px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper nav label:hover{
+  background: grey;
+}
+
+#bezza:checked ~ nav label.bezza,
+#ativa:checked ~ nav label.ativa,
+#aruz:checked ~ nav label.aruz,
+#help:checked ~ nav label.help,
+#about:checked ~ nav label.about{
+  color: #fff;
+}
+
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#ativa:checked ~ nav .slider{
+  left: 20%;
+}
+
+#aruz:checked ~ nav .slider{
+  left: 40%;
+}
+
+#help:checked ~ nav .slider{
+  left: 60%;
+}
+
+#about:checked ~ nav .slider{
+  left: 80%;
+}
+
+#psec .content{
+  display: none;
+  background: #fff;
+}
+
+#bezza:checked ~ section .content-1,
+#ativa:checked ~ section .content-2,
+#aruz:checked ~ section .content-3,
+#help:checked ~ section .content-4,
+#about:checked ~ section .content-5{
+  display: block;
+}
+
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+
+#psec section .content p{
+  text-align: justify;
+}
+
+#psec .content-1 p{
+    text-align: justify;
+}
+
+/* First Table */
+#p-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#p-table th, #p-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#p-table th {
+    background-color: #f2f2f2;
+}
+
+/* Price Table bezza 2 */
+#p-table-bezza {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#p-table-bezza th, #p-table-bezza td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#p-table-bezza th {
+    background-color: #f2f2f2;
+}
+
+#psec .content-1 img {
+    width: 350px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Ativa */
+.content-2 .title img {
+    width: 350px;
+    height: auto;
+    float: right
+}
+
+.content-2 .title h2{
+    padding: 0;
+}
+#psec .content-2 p:nth-of-type(3){
+    max-width: 500px;
+    text-align: justify;
+}
+
+#psec .content-2 p:nth-of-type(4){
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Ative Safety Image Grid */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.image-item {
+  width: 17.1875em;
+  height: 11.25em;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.image-item img {
+  max-width: 17.1875em;
+  max-height: 11.25em;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+}
+
+.p-ativa-t {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; /* Example width */
+    border: 2px solid #000; /* Border for the table */
+}
+
+/* Style for the table header */
+.p-ativa-t th {
+    padding: 8px;
+    text-align: left;
+    background-color: #eee;
+    border: 1px solid #000; /* Border for the header cells */
+}
+
+/* Style for the table data */
+.p-ativa-t td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000; /* Border for the data cells */
+}
+
+
+/* Aruz */
+#psec > div.content.content-3 > div.title > img {
+    width: 360px;
+    height: 250px;
+    object-fit: cover;
+    float: right;
+} 
+
+#psec > div.content.content-3 > p{
+    width: 500px;
+    text-align: justify;
+}
+
+#psec > div.content.content-3 > div.intro-aruz-title > p{
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 1.3em;
+    text-align: center;
+}
+
+#psec > div.content.content-3 > div.intro-aruz-content p{
+    text-align: center;
+    padding-top: 10px;
+    color: grey;
+}
+
+.p-aruz-t {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; /* Example width */
+    border: 2px solid #000; /* Border for the table */
+}
+
+/* Style for the table header */
+.p-aruz-t th {
+    padding: 8px;
+    text-align: left;
+    background-color: #eee;
+    border: 1px solid #000; /* Border for the header cells */
+}
+
+/* Style for the table data */
+.p-aruz-t td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000; /* Border for the data cells */
+}
+
+/* Table of pre owed vehicle */
+.pre-owed-vehicle-pt {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; /* Example width */
+    border: 2px solid #000; /* Border for the table */
+}
+
+/* Style for the table header */
+.pre-owed-vehicle-pt th {
+    padding: 8px;
+    text-align: left;
+    background-color: #eee;
+    border: 1px solid #000; /* Border for the header cells */
+}
+
+/* Style for the table data */
+.pre-owed-vehicle-pt td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000; /* Border for the data cells */
+}
+
+#psec > div.content.content-5 > div.about-p > img{
+    float: right;
+    width: 350px;
+    height: auto;
+    padding-top: 5px;
+}
+
+/* Proton */
+header .cap2{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .nav2 .nav-item2 a{
+    position: relative;
+    color: #000000;
+    font-size: 0.7em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav2 .nav-item2 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav2 .nav-item2 a:hover:before{
+    width: 100%;
+}
+
+.wrapper{
+  max-width: 100%;
+  width: 100%;
+  margin: 100px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper nav label:hover{
+  background: grey;
+}
+
+#fifty:checked ~ nav label.fifty,
+#seventy:checked ~ nav label.seventy,
+#saga:checked ~ nav label.saga,
+#helpp:checked ~ nav label.helpp,
+#aboutp:checked ~ nav label.aboutp{
+  color: #fff;
+}
+
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#seventy:checked ~ nav .slider{
+  left: 20%;
+}
+
+#saga:checked ~ nav .slider{
+  left: 40%;
+}
+
+#helpp:checked ~ nav .slider{
+  left: 60%;
+}
+
+#aboutp:checked ~ nav .slider{
+  left: 80%;
+}
+
+#protonsec .content{
+  display: none;
+  background: #fff;
+}
+
+#fifty:checked ~ section .content-1,
+#seventy:checked ~ section .content-2,
+#saga:checked ~ section .content-3,
+#helpp:checked ~ section .content-4,
+#aboutp:checked ~ section .content-5 {
+  display: block;
+}
+
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+
+#protonsec section .content p{
+  text-align: justify;
+}
+
+#protonsec .content-1 p{
+    text-align: justify;
+}
+
+#protonsec > div.content.content-1 > div.proton_c1_p1{
+    font-size: 50px;    
+}
+
+#protonsec > div.content.content-1 > div.proton_c1_p2{
+    font-size: 26px;
+}
+
+#protonsec > div.content.content-1 > div.proton_c1_price{
+    color: grey;
+    font-size: 10px;
+}
+
+#protonsec > div.content.content-1 > div.proton_c1_p4 dd{
+    margin-bottom: 0.7em;
+}
+
+#protonsec > div.content.content-2 > div.proton_c2_p4 dd{
+    margin-bottom: 0.7em;
+}
+
+#protonsec > div.content.content-3 > div.proton_c3_p4 dd{
+    margin-bottom: 0.7em;
+}
+
+#protonsec > div.content.content-1 > div.pronton_c1_p3 p{
+    text-align: center;
+    font-size: 50px;
+}
+
+#protonsec > div.content.content-1 > img{
+    width: 55%;
+    height: auto;
+    float: right;
+}
+
+.proton_c1_pl table {
+  border-collapse: collapse;
+}
+
+.proton_c1_pl th,
+.proton_c1_pl td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Proton X70 */
+#protonsec > div.content.content-2 > img{
+    float: right;
+    width: 55%;
+    height: auto;
+}
+
+#protonsec > div.content.content-2 > div.proton_c2_p1 > p{
+    font-size: 50px;
+}
+
+#protonsec > div.content.content-2 > div.proton_c2_p2 > p{
+    font-size: 26px;
+}
+
+#protonsec > div.content.content-2 > div.proton_c2_price > p{
+    color: grey;
+    font-size: 10px;
+}
+
+#protonsec > div.content.content-2 > div.pronton_c2_p3 > p{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 4em;
+}
+
+.proton_c2_p5 table {
+  border-collapse: collapse;
+}
+
+.proton_c2_p5 th,
+.proton_c2_p5 td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Proton Saga */
+#protonsec > div.content.content-3 > div.proton_c3_img > img{
+    float: right;
+    width: 55%;
+    height: auto;
+}
+
+#protonsec > div.content.content-3 > div.proton_c3_p1 > p{
+    font-size: 50px;
+}
+
+#protonsec > div.content.content-3 > div.proton_c3_p2 > p{
+    font-size: 26px;
+}
+
+#protonsec > div.content.content-3 > div.proton_c3_price > p{
+    color: grey;
+    font-size: 10px;
+}
+#protonsec > div.content.content-3 > div.pronton_c3_p3 > p{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 4em;
+}
+
+.proton_c4_2ndhandptble table {
+  border-collapse: collapse;
+}
+
+.proton_c4_2ndhandptble th,
+.proton_c4_2ndhandptble td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#protonsec > div.content.content-4 > div.proton_c4_p1 > p{
+    font-size: 20px;
+}
+
+#protonsec > div.content.content-5 > div > div.proton_aboutus_logo > img{
+    float: right;
+}
+
+.proton_c3_p5 table {
+  border-collapse: collapse;
+}
+
+.proton_c3_p5 th,
+.proton_c3_p5 td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Toyota */
+header .cap2{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .nav2 .nav-item2 a{
+    position: relative;
+    color: #000000;
+    font-size: 0.7em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav2 .nav-item2 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav2 .nav-item2 a:hover:before{
+    width: 100%;
+}
+
+.wrapper{
+  max-width: 100%;
+  width: 100%;
+  margin: 100px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper nav label:hover{
+  background: grey;
+}
+
+#hilux:checked ~ nav label.hilux,
+#corolla:checked ~ nav label.corolla,
+#camry:checked ~ nav label.camry,
+#help:checked ~ nav label.help,
+#about:checked ~ nav label.about{
+  color: #fff;
+}
+
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#corolla:checked ~ nav .slider{
+  left: 20%;
+}
+
+#camry:checked ~ nav .slider{
+  left: 40%;
+}
+
+#help:checked ~ nav .slider{
+  left: 60%;
+}
+
+#about:checked ~ nav .slider{
+  left: 80%;
+}
+
+#tsec .content{
+  display: none;
+  background: #fff;
+}
+
+#hilux:checked ~ section .content-1,
+#corolla:checked ~ section .content-2,
+#camry:checked ~ section .content-3,
+#help:checked ~ section .content-4,
+#about:checked ~ section .content-5 {
+  display: block;
+}
+
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+
+#tsec section .content p{
+  text-align: justify;
+}
+
+#tsec .content-1 p{
+    text-align: justify;
+}
+
+#tsec > div.content.content-1 > div > img{
+    float: left;
+}
+
+.toyota_c1_img {
+  width: 31.25em; /* Adjust the width of the container as needed */
+  height: 31.25em; /* Adjust the height of the container as needed */
+  overflow: hidden; /* Ensure the image stays within the container */
+}
+
+.toyota_c1_img img {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+  width: 90%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: contain; /* Maintain the aspect ratio of the image */
+}
+
+.toyota_c1_img img:hover {
+  transform: scale(1.1); /* Zoom the image to 1.3 times its original size on hover */
+}
+
+#tsec > div.content.content-1 > div.toyota_c1_p1 > p > strong{
+    float: right;
+}
+
+.double-column {
+    display: flex;
+}
+
+.toyota_c1_img {
+    flex: 1;
+}
+
+.toyota_c1_p1 {
+    flex: 1;
+}
+
+#tsec > div.content.content-1 > div > div.toyota_c1_p1{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#tsec > div.content.content-1 > div > div.toyota_c1_p1 > p:nth-child(1) > strong{
+    font-size: 50px;
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
+#tsec > div.content.content-1 > div > div.toyota_c1_p1{
+    width: 650px;
+    height: 500px;
+}
+
+#tsec > div.content.content-1 > div > div.toyota_c1_p1 > p:nth-child(2){
+    font-size: 30px;
+    padding: 0;
+}
+
+#tsec > div.content.content-1 > div > div.toyota_c1_p1 > p:nth-child(3){
+    padding-right: 7em;
+    font-size: 20px;
+}
+
+#tsec > div.content.content-1 > div > div.toyota_c1_p1 > p:nth-child(4){
+    font-size: 30px;
+    padding-right: 10%;
+}
+
+#tsec > div.content.content-1 > div.double-column > div.toyota_c1_p1 > p:nth-child(10){
+    font-size: 30px;
+    padding: 0;
+}
+
+#tsec > div.content.content-1 > div.double-column > div.toyota_c1_p1 > p:nth-child(11){
+    color: grey;
+    font-size: 15px;
+}
+
+#tsec .toyota_engine_container {
+    display: flex;
+}
+
+#tsec .toyota_columns_container {
+    display: flex;
+    width: 100%;
+}
+
+#tsec .toyota_content_container {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#tsec .toyota_image_container {
+    width: 60%;
+}
+
+#tsec .toyota_content_wrapper {
+    padding: 0;
+}
+
+#tsec > div.content.content-1 > div.toyota_engine_container > div > div.toyota_image_container > img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%
+}
+
+#tsec > div.content.content-1 > div.toyota_engine_container > div > div.toyota_content_container > div > div.hilux_engine_intro{
+    font-weight: 400;
+}
+
+#tsec > div.content.content-1 > div.toyota_engine_container > div > div.toyota_content_container > div > div.engine_desc{
+    font-size: 13px;
+    color: grey;
+}
+
+#tsec .toyota_hilux_ptable table {
+  border-collapse: collapse;
+}
+
+#tsec .toyota_hilux_ptable th, .toyota_hilux_ptable td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Corolla */
+#tsec .double-column-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tsec .left-column {
+    flex: 50%;
+    padding: 20px;
+}
+
+#tsec .right-column {
+    flex: 50%;
+    padding: 20px;
+}
+
+#tsec .hover-scale {
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#tsec .hover-scale:hover {
+    transform: scale(1.1);
+}
+
+#tsec > div.content.content-2 > div > div.right-column > h1{
+    font-size: 30px;
+}
+
+#tsec > div.content.content-2 > div > div.right-column > h1 > span{
+    font-size: 37px;
+}
+
+#tsec > div.content.content-2 > div > div.right-column > p{
+    font-size: 20px !important; 
+    text-align: left !important;   
+}
+
+#tsec > div.content.content-2 > div > div.right-column > p:nth-child(11){
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#tsec > div.content.content-2 > div > div.right-column > p:nth-child(12){
+    color: grey;
+    font-size: 16px;
+}
+
+#t_c_future .toyota-corolla-future-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+#t_c_future .column-left {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+#t_c_future .column-left--image {
+    background-color: #f1f1f1;
+}
+
+#t_c_future .column-right {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+#t_c_future .column-right--content {
+    background-color: #eaeaea;
+}
+
+#t_c_future .column-left img, .column-right img {
+    max-width: 100%;
+}
+
+#t_c_future .column-left p, .column-right p {
+    margin-top: 10px;
+}
+
+#t_c_future > div > div.column-left.column-left--image > p.c_f_title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#t_c_future > div > div.column-left.column-left--image > p:nth-child(3){
+    font-size: 17px;
+}
+
+#t_c_future > div > div.column-right.column-right--content > p.c_f_title_2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#t_c_future > div > div.column-right.column-right--content > p:nth-child(3){
+    font-size: 17px;
+}
+
+#t_c_future > div > div.column-right.column-right--content > p:nth-child(5){
+    font-size: 13px;
+    color: grey;
+}
+
+#tsec > div.content.content-2 > div > div.toyota_corolla_choose > p.t_c_quote_word{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#tsec > div.content.content-2 > div > div.toyota_corolla_choose > p.t_c_c_p1{
+    font-size: 20px;
+}
+
+#tsec > div.content.content-2 > div > div.toyota_corolla_choose{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tsec > div.content.content-2 > div > div.toyota_corrolla_ptable > p{
+    margin-top: 1.5em;
+    font-size: 20px;
+}
+
+#tsec .toyota_corrolla_ptable table {
+    border-collapse: collapse;
+    width: 120%;
+}
+
+#tsec .toyota_corrolla_ptable th,
+#tsec .toyota_corrolla_ptable td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#tsec .toyota_corrolla_ptable th {
+    background-color: #f2f2f2;
+}
+
+#tsec .toyota_corrolla_ptable td.image-cell {
+    padding: 30px 10px 10px 10px;
+}
+
+#tsec .toyota_corrolla_ptable td.image-cell img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Camry */
+#tsec > div.content.content-3 > div > div > div.right-column > h2{
+    font-size: 50px;
+}
+
+#tsec > div.content.content-3 > div > div > div.right-column > p:nth-child(2){
+    font-size: 30px;
+}
+
+#tsec > div.content.content-3 > div > div > div.right-column > p:nth-child(4){
+    font-size: 20px;
+}
+
+#tsec > div.content.content-3 > div > div > div.right-column > p:nth-child(13){
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#tsec > div.content.content-3 > div > div > div.right-column > p:nth-child(14){
+    font-size: 14px;
+    color: grey;
+}
+
+.camry_column-container {
+  display: flex;
+}
+
+.camry_column-left {
+  flex: 0 0 60%; /* Adjust the width percentage as needed */
+}
+
+.camry_column-right {
+  flex: 1;
+  padding: 10px 50px 10px 50px;
+  background-color: #EEEEEE;
+}
+
+#tsec > div.content.content-3 > div.camry_feature > div > div.camry_column-left > img{
+    width: 100%;
+    height: 100%;
+}
+
+#tsec > div.content.content-3 > div.camry_feature > div > div.camry_column-right > h4{
+    font-size: 20px;
+}
+
+#tsec > div.content.content-3 > div.camry_feature > div > div.camry_column-right > p{
+    font-size: 20px;
+}
+
+#tsec > div.content.content-3 > div.camry_feature > h3{
+    font-size: 40px;
+}
+
+#tsec > div.content.content-3 > div.camry_feature > h3{
+    margin-bottom: 10px;
+}
+
+#tsec .camry_feature_2 {
+    margin: 20px 0; /* Adjust the margin as desired */
+}
+
+#tsec .container_camry_feature_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#tsec .column_camry_feature_2 {
+    flex-basis: 49.5%; /* Adjust this value to set the width of each column */
+}
+
+#tsec .column_camry_feature_2 img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(1){
+    background-color: #EEEEEE;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(2){
+    background-color: #EEEEEE;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(1) > div > p:nth-child(1){
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(1) > div > p:nth-child(3){
+    font-size: 16px;
+    font-weight: 370;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(2) > div > p:nth-child(1){
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(2) > div > p:nth-child(3){
+    font-size: 16px;
+    font-weight: 370;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(1) > div{
+    padding: 5px 20px 20px 20px;
+}
+
+#tsec > div.content.content-3 > div.camry_feature_2 > div > div:nth-child(2) > div{
+    padding: 5px 20px 20px 20px;
+}
+
+#tsec .camry_p_table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tsec .camry_p_table th,
+#tsec .camry_p_table td {
+    border: 0.5px solid grey;
+    padding: 8px;
+}
+
+#tsec .camry_p_table th {
+    background-color: #f2f2f2;
+}
+
+#tsec > div.content.content-3 > div.camry_p_table > table > thead > tr:nth-child(1) > td:nth-child(1) {
+    padding: 5px 5px 5px 5px;
+}
+
+#tsec > div.content.content-3 > div.camry_p_table > table > thead > tr:nth-child(1) > td:nth-child(1) > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#tsec .toyota_pre_p_table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tsec .toyota_pre_p_table th,
+#tsec .toyota_pre_p_table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#tsec > div.content.content-4 > h5{
+    font-size: 27px;
+}
+
+#tsec > div.content.content-4 > p{
+    font-size: 25px;
+}
+
+#tsec > div.content.content-5 > h6{
+    font-size: 20px;
+}
+
+#tsec > div.content.content-5 > div{
+    margin-top: 1em;
+}
+
+#tsec > div.content.content-5 > div.toyota_contact > img{
+    float: right;
+}
+
+/* Nissan */
+/* Proton */
+header .cap2{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .nav2 .nav-item2 a{
+    position: relative;
+    color: #000000;
+    font-size: 0.7em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav2 .nav-item2 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav2 .nav-item2 a:hover:before{
+    width: 100%;
+}
+
+.wrapper{
+  max-width: 100%;
+  width: 100%;
+  margin: 100px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper nav label:hover{
+  background: grey;
+}
+
+#navara:checked ~ nav label.navara,
+#xtra:checked ~ nav label.xtra,
+#almera:checked ~ nav label.almera,
+#helpn:checked ~ nav label.helpn,
+#aboutn:checked ~ nav label.aboutn{
+  color: #fff;
+}
+
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#xtra:checked ~ nav .slider{
+  left: 20%;
+}
+
+#almera:checked ~ nav .slider{
+  left: 40%;
+}
+
+#helpn:checked ~ nav .slider{
+  left: 60%;
+}
+
+#aboutn:checked ~ nav .slider{
+  left: 80%;
+}
+
+#nsec .content{
+  display: none;
+  background: #fff;
+}
+
+#navara:checked ~ section .content-1,
+#xtra:checked ~ section .content-2,
+#almera:checked ~ section .content-3,
+#helpn:checked ~ section .content-4,
+#aboutn:checked ~ section .content-5 {
+  display: block;
+}
+
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+
+/*section .content p{
+  text-align: justify;
+}
+debug code:kelvin2*/
+
+/*.content-1 p{
+    padding-right: 18.75em;
+    text-align: justify;
+}
+debug code:kelvin1*/
+
+
+/* Navara */
+#nsec > div.content.content-1 > div.nissan_navara_container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+}
+
+#nsec .navara_background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/kelvin_nissan_navara.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+#nsec .navara_content {
+  position: relative;
+  z-index: 3;
+  color: #000000;
+  padding: 20px;
+}
+
+#nsec .navara_content h1 {
+  font-size: 37px;
+}
+
+#nsec .navara_content p {
+  font-size: 16px;
+}
+
+#nsec > div.content.content-1 > div > div.navara_content > h1{
+    font-weight: 450;
+    text-align: right;
+}
+
+#nsec > div.content.content-1 > div > div.navara_content > div{
+    text-align: right;
+}
+
+#nsec > div.content.content-1 > div > div.navara_content > div > p:nth-child(1){
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#nsec > div.content.content-1 > div > div.navara_content > div > p:nth-child(3) > span{
+    font-size: 30px;
+    font-weight: 360;
+}
+
+#nsec > div.content.content-1 > div > div.navara_content > div > p:nth-child(5) > span{
+    font-size: 26px;
+    font-weight: 360;
+}
+
+#nsec > div.content.content-1 > div.navara_content_2{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#nsec > div.content.content-1 > div.navara_content_2 > img{
+    float: right;
+    max-width: 50%;
+    height: auto;
+}
+
+#nsec > div.content.content-1 > div.navara_content_2 > div{
+    width: 50%;
+    height: 50%;
+    padding: 10px 10px 10px 1px;
+}
+
+#nsec .n_n_p_table table.bordered-table {
+    border-collapse: collapse;
+}
+
+#nsec .n_n_p_table table.bordered-table th,
+#nsec .n_n_p_table table.bordered-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#nsec > div.content.content-1 > div.n_n_p_table{
+    margin-top: 2em;
+}
+
+/* X-trail */
+#nsec > div.content.content-2 > div.xtrail_p{
+    text-align: right;
+}
+
+#nsec > div.content.content-2 > div > h2{
+    font-size: 30px;
+}
+
+#nsec > div.content.content-2 > div > p:nth-child(2){
+    font-size: 26px;
+}
+
+#nsec > div.content.content-2 > div > p:nth-child(4) > span:nth-child(3){
+    font-size: 27px;
+}
+
+#nsec > div.content.content-2 > div > p:nth-child(6) > span:nth-child(3){
+    font-size: 27px;
+}
+
+#nsec > div.content.content-2 > div.xtrail_p > img{
+    max-height: 50%;
+    max-width: 50%;
+    float: left;
+}
+
+#nsec > div.content.content-2 > div.xtrail_p{
+    overflow: hidden;
+}
+
+#nsec > div.content.content-2 > div.xtrail_f{
+    margin-top: 5em;
+    overflow: hidden;
+}
+
+#nsec > div.content.content-2 > div.xtrail_f > img{
+    float: right;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+#nsec > div.content.content-2 > div.xtrail_f > div{
+    padding: 50px 10px 10px 10px;
+}
+
+#nsec > div.content.content-2 > p{
+    font-size: 20px;
+}
+
+#nsec .xtrail_p_table table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+#nsec .xtrail_p_table th,
+#nsec .xtrail_p_table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Almera */
+#nsec .almera_context{
+    text-align: right;
+}
+
+#nsec > div.content.content-3 > div > div > h4{
+    font-size: 30px;
+}
+
+#nsec > div.content.content-3 > div > div > p:nth-child(2){
+    font-size: 27px;
+}
+
+#nsec > div.content.content-3 > div > div > p:nth-child(5){
+    font-size: 30px;
+}
+
+#nsec > div.content.content-3 > div > div > p:nth-child(7){
+    font-size: 15px;
+}
+
+#nsec > div.content.content-3 > div > div > p:nth-child(8){
+    font-size: 30px;
+}
+
+#nsec > div.content.content-3 > div{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#nsec > div.content.content-3 > div > div.almera_p1_img > img{
+    max-width: 50%;
+    max-height: 100%;
+    float: left;
+}
+
+#nsec .almera_f_intro{
+    max-height: 50%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#nsec .almeara_f_1{
+    max-height: 100%;
+    max-width: 60%;
+}
+
+#nsec .almera_f_img img{
+    max-width: 40%;
+    max-height: 100%;
+    float: right;
+    overflow: hidden;
+}
+
+#nsec > div.content.content-3 > div.almera_f_intro > div.almeara_f_1 > h5{
+    font-size: 20px;
+}
+
+#nsec > div.content.content-3 > div.almera_f_intro > div.almeara_f_1 > p{
+    font-size: 20px;
+}
+
+#nsec .almeara_f_1{
+    padding: 10px 10px 10px 10px;
+}
+
+#nsec > div.content.content-3 > div.almera_f_intro > p{
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+#nsec .almera_p_table table {
+    border-collapse: collapse;
+}
+
+#nsec .almera_p_table th,
+#nsec .almera_p_table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#nsec .pre_p_table_nissan table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#nsec > div.content.content-4 > h6{
+    font-size: 20px;
+}
+
+#nsec > div.content.content-4 > p{
+    margin-left: 0;
+    font-size: 20px;
+}
+
+#nsec .pre_p_table_nissan th,
+#nsec .pre_p_table_nissan td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#nsec > div.content.content-5 > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nsec > div.content.content-5{
+    overflow: hidden;
+}
+
+#nsec > div.content.content-5 > div.toyota_contact > img{
+    float: right;
+    height: 30vh;
+    width: 25vw;
+}
+
+#nsec > div.content.content-5 > div.toyota_contact{
+    margin-top: 2em;
+}
+
+/* BMW */
+header .cap2{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .nav2 .nav-item2 a{
+    position: relative;
+    color: #000000;
+    font-size: 0.7em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav2 .nav-item2 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav2 .nav-item2 a:hover:before{
+    width: 100%;
+}
+
+.wrapper{
+  max-width: 100%;
+  width: 100%;
+  margin: 100px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper nav label:hover{
+  background: grey;
+}
+
+#bmx:checked ~ nav label.bmx,
+#bmm:checked ~ nav label.bmm,
+#bme:checked ~ nav label.bme,
+#helpb:checked ~ nav label.helpb,
+#aboutb:checked ~ nav label.aboutb{
+  color: #fff;
+}
+
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#bmm:checked ~ nav .slider{
+  left: 20%;
+}
+
+#bme:checked ~ nav .slider{
+  left: 40%;
+}
+
+#helpb:checked ~ nav .slider{
+  left: 60%;
+}
+
+#aboutb:checked ~ nav .slider{
+  left: 80%;
+}
+
+#bmwsec .content{
+  display: none;
+  background: #fff;
+}
+
+#bmx:checked ~ section .content-1,
+#bmm:checked ~ section .content-2,
+#bme:checked ~ section .content-3,
+#helpb:checked ~ section .content-4,
+#aboutb:checked ~ section .content-5 {
+  display: block;
+}
+
+/* BMX */
+#bmwsec .bmx_intro {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+#bmwsec .bmx_intro_context {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+#bmwsec .bmx_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#bmwsec > div.content.content-1 > div > div {
+    color: #000000;
+}
+
+#bmwsec > div.content.content-1 > div > div > h1 {
+    font-size: 50px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-1 > div > div > p {
+    font-size: 47px;
+    font-weight: 250;
+}
+
+#bmwsec > div.content.content-1 > div > div > p:nth-child(4) {
+    font-size: 26px;
+    padding-top: 73%;
+    color: #000000;
+}
+
+#bmwsec > div.content.content-1 > div > div > p:nth-child(5) {
+    font-size: 30px;
+}
+
+
+#bmwsec .double-column-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#bmwsec .left-column {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+#bmwsec .right-column {
+    flex-basis: 50%;
+    padding: 4em;
+}
+
+#bmwsec .hover-scale {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#bmwsec .hover-scale:hover {
+    transform: scale(1.1);
+}
+
+#bmwsec > div.content.content-1 > div.double-column-container > div.right-column > p {
+    font-size: 25px;
+    text-align: left;
+}
+
+#bmwsec > div.content.content-1 > div.double-column-container > div.right-column > h2 > span:nth-child(1) {
+    font-size: 35px;
+}
+
+#bmwsec > div.content.content-1 > div.bmx_intro > div > p:nth-child(4) > span{
+    font-size: 13px;
+    color: #000000;
+}
+
+#bmwsec > div.content.content-1 > div.bmx_intro > div > p:nth-child(5) > span{
+    font-size: 13px;
+    color: #000000;
+}
+
+#bmwsec > div.content.content-1 > div.bmw_driving_cofort{
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#bmwsec > div.content.content-1 > div.bmw_driving_cofort > img{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+#bmwsec .bmw_dr_cf_context p{
+    font-size: 17px !important;
+}
+
+#bmwsec .bmw_dr_cf_context{
+    padding: 30px 30px 30px 0px;
+}
+
+#bmwsec > div.content.content-1 > div.bmw_driving_cofort > div > p:nth-child(1){
+    font-weight: 500;
+    font-size: 21px !important;
+}
+
+#bmwsec > div.content.content-1 > div.bmw_driving_cofort > div > p:nth-child(3){
+    font-weight: 360;
+}
+
+#bmwsec .bmx_p_table {
+  border-collapse: collapse;
+  margin-top: 2em;
+}
+
+#bmwsec .bmx_p_table th,
+#bmwsec .bmx_p_table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+#bmwsec .bmx_p_table th {
+  background-color: #f2f2f2;
+}
+
+/* BME */
+/* code:kelvinbmwt041012 */
+#bmwsec .bme_intro {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+#bmwsec .bme_intro_context {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+#bmwsec .bme_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#bmwsec > div.content.content-2 > div > div {
+    color: #000000;
+}
+
+#bmwsec > div.content.content-2 > div > div > h1 {
+    font-size: 50px;
+    font-weight: 350;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-2 > div > div > p {
+    font-size: 47px;
+    font-weight: 250;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-2 > div > div > p:nth-child(4) {
+    font-size: 26px;
+    padding-top: 65%;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-2 > div > div > p:nth-child(5) {
+    font-size: 30px;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-2 > div.bme_intro > div > p:nth-child(4) > span{
+    font-size: 13px;
+    color: #000000;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-2 > div.bme_intro > div > p:nth-child(5) > span{
+    font-size: 13px;
+    color: #fff;
+}
+/* 041012 */
+
+#bmwsec > div.content.content-2 > div.bme_2nd_intro{
+    margin-top: 2em;
+    padding: 20px 20px 20px 20px;
+}
+
+#bmwsec > div.content.content-2 > div.bme_2nd_intro > p:nth-child(1){
+    font-size: 30px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-2 > div.bme_2nd_intro > p:nth-child(3){
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#bmwsec > div.content.content-2 > div.bme_3nd_intro{
+    margin-top: 2em;
+    padding-left: 20px;
+}
+
+#bmwsec > div.content.content-2 > div.bme_3nd_intro > p:nth-child(1){
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#bmwsec > div.content.content-2 > div.bme_3nd_intro > p:nth-child(3){
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#bmwsec > div.content.content-2 > div.bme_3nd_intro > ul > li{
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 0.7em;
+}
+
+#bmwsec .bme_feature_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    overflow: hidden;
+}
+
+#bmwsec .bme_feature_image {
+    flex: 1;
+    padding: 20px;
+}
+
+#bmwsec .bme_feature_text {
+    flex: 1;
+    padding: 20px;
+}
+
+#bmwsec .bme_feature_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#bmwsec > div.content.content-2 > div.bme_feature_container > div.bme_feature_text{
+    padding: 30px 30px 30px 30px;
+}
+
+#bmwsec > div.content.content-2 > div.bme_feature_container > div.bme_feature_text > p:nth-child(1){
+    font-size: 25px;
+    color: #000000;
+}
+
+#bmwsec > div.content.content-2 > div.bme_feature_container > div.bme_feature_text > p:nth-child(3){
+    font-size: 22px;
+    color: #000000;
+}
+
+#bmwsec .bme_p_table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bmwsec .bme_p_table th, .bme_p_table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#bmwsec .bme_p_table th {
+    background-color: #f2f2f2;
+}
+
+#bmwsec > div.content.content-2 > div.bme_p_table > p{
+    font-size: 20px;
+}
+
+/* BMM sec3 */
+#bmwsec .bmm_intro {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+#bmwsec .bmm_intro_context {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+#bmwsec .bmm_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#bmwsec > div.content.content-3 > div > div {
+    color: #000000;
+}
+
+#bmwsec > div.content.content-3 > div > div > h1 {
+    font-size: 50px;
+    font-weight: 350;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-3 > div > div > p {
+    font-size: 47px;
+    font-weight: 250;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-3 > div > div > p:nth-child(4) {
+    font-size: 26px;
+    padding-top: 65%;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-3 > div > div > p:nth-child(5) {
+    font-size: 30px;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro > div > p:nth-child(4) > span{
+    font-size: 13px;
+    color: #000000;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro > div > p:nth-child(5) > span{
+    font-size: 13px;
+    color: #fff;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(1){
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > ul{
+    font-size: 23px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(5){
+    font-size: 26px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(6){
+    font-size: 20px !important;
+    font-weight: 355;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(8){
+    font-size: 26px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(9){
+    font-size: 20px !important;
+    font-weight: 355;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(11){
+    font-size: 26px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-3 > div.bmm_intro_p1 > p:nth-child(12){
+    font-size: 20px !important;
+    font-weight: 355;
+}
+
+#bmwsec .container_bmm {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#bmwsec .image-column_bmm {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+#bmwsec .image-column_bmm img {
+    max-width: 100%;
+    height: auto;
+}
+
+#bmwsec .text_bmm {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#bmwsec > div.content.content-3 > div.container_bmm > div:nth-child(1) > div > p:nth-child(1){
+    font-size: 20px;
+}
+
+#bmwsec > div.content.content-3 > div.container_bmm > div:nth-child(1) > div > p:nth-child(3){
+    font-size: 18px;
+}
+
+#bmwsec > div.content.content-3 > div.container_bmm > div:nth-child(2) > div > p:nth-child(1){
+    font-size: 20px;
+}
+
+#bmwsec > div.content.content-3 > div.container_bmm > div:nth-child(2) > div > p:nth-child(3){
+    font-size: 18px;
+}
+
+#bmwsec > div.content.content-3 > div.container_bmm > div:nth-child(1) > div{
+    padding: 20px 20px 20px 20px;
+}
+
+#bmwsec > div.content.content-3 > div.container_bmm > div:nth-child(2) > div{
+    padding: 20px 20px 20px 20px;
+}
+
+#bmwsec .bmm_p_table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bmwsec .bmm_p_table th, #bmwsec .bmm_p_table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#bmwsec .bmm_p_table th {
+    background-color: #f2f2f2;
+}
+
+/* styles.css */
+#bmwsec .BMW_pre_t table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bmwsec .BMW_pre_t th, #bmwsec .BMW_pre_t td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#bmwsec .BMW_pre_t th {
+    background-color: #f2f2f2;
+}
+
+#bmwsec > div.content.content-4 > h3{
+    font-size: 25px;
+}
+
+#bmwsec > div.content.content-4 > p{
+    font-size: 25px;
+}
+
+#bmwsec > div.content.content-5 > div.bmm_description{
+    margin-top: 1em;
+}
+
+#bmwsec > div.content.content-5 > h4{
+    font-size: 27px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-5 > div.bmm_description p{
+    font-size: 26px;
+    font-weight: 350;
+}
+
+#bmwsec > div.content.content-5 > div.bmw_contact > img{
+    float: right;
+}
+
+#bmwsec > div.content.content-5 > div.bmw_contact{
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+/* Mercedes-Benz */
+header .cap2{
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .nav2 .nav-item2 a{
+    position: relative;
+    color: #000000;
+    font-size: 0.7em;
+    margin: 1.0em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 3vw;
+    transition: 0.3s ease;
+}
+
+/* Colour of the text (Don't touch it if you have not idea how this work) */
+header .nav2 .nav-item2 a:before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 0.1vw;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .nav2 .nav-item2 a:hover:before{
+    width: 100%;
+}
+
+.wrapper{
+  max-width: 100%;
+  width: 100%;
+  margin: 100px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper nav label:hover{
+  background: grey;
+}
+
+#benz_ms:checked ~ nav label.benz_ms,
+#benz_me:checked ~ nav label.benz_me,
+#benz_mec:checked ~ nav label.benz_mec,
+#helpbenz:checked ~ nav label.helpbenz,
+#aboutmer:checked ~ nav label.aboutmer{
+  color: #fff;
+}
+
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#benz_me:checked ~ nav .slider{
+  left: 20%;
+}
+
+#benz_mec:checked ~ nav .slider{
+  left: 40%;
+}
+
+#helpbenz:checked ~ nav .slider{
+  left: 60%;
+}
+
+#aboutmer:checked ~ nav .slider{
+  left: 80%;
+}
+
+#benzsec .content{
+  display: none;
+  background: #fff;
+}
+
+#benz_ms:checked ~ section .content-1,
+#benz_me:checked ~ section .content-2,
+#benz_mec:checked ~ section .content-3,
+#helpbenz:checked ~ section .content-4,
+#aboutmer:checked ~ section .content-5 {
+  display: block;
+}
+
+/* Benz-ms */
+/* Benz tem start */
+#benzsec .benz_ms_intro {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+#benzsec .benz_ms_intro_context {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+#benzsec .benz_ms_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#benzsec > div.content.content-1 > div > div {
+    color: #000000;
+}
+
+#benzsec > div.content.content-1 > div > div > h1 {
+    font-size: 50px;
+    font-weight: 200;
+    font-family: serif;
+    color: #fff;
+}
+
+#benzsec > div.content.content-1 > div > div > p {
+    font-size: 47px;
+    font-weight: 250;
+    color: #fff;
+    margin-left: 0;
+}
+
+#benzsec > div.content.content-1 > div > div > p:nth-child(4) {
+    font-size: 27px;
+    padding-top: 40%;
+    color: #fff;
+}
+
+#benzsec > div.content.content-1 > div > div > p:nth-child(5) {
+    font-size: 47px;
+    color: #fff;
+    margin: 0;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_intro > div > p:nth-child(4) > span{
+    font-size: 13px;
+    color: #000000;
+    color: #fff;
+}
+/* Benz tem end */
+
+#benzsec > div.content.content-1 > div.benz_ms_f > p:nth-child(1){
+    font-size: 18px;
+    color: #767676;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_f > p:nth-child(3){
+    font-size: 40px;
+    font-family: serif;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_f > p:nth-child(5){
+    font-size: 20px;
+    padding-right: 25%;
+    color: #767676;
+    font-weight: 450;
+    text-align: justify;
+}
+
+#benzsec .benz_ms_f_img{
+    padding-top: 2em;
+    width: 100%;
+    height: auto;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_f_2 > p:nth-child(1){
+    font-size: 18px;
+    color: #767676;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_f_2 > p:nth-child(3){
+    font-size: 40px;
+    font-family: serif;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_f_2 > p:nth-child(5){
+    font-size: 20px;
+    padding-right: 25%;
+    color: #767676;
+    font-weight: 450;
+    text-align: justify;
+}
+
+#benzsec .benz_ms_f_img{
+    padding-top: 2em;
+    width: 100%;
+    height: auto;
+}
+
+#benzsec > div.content.content-1 > div.benz_ms_f_2 > img{
+    padding-top: 2em;
+    width: 100%;
+    height: auto;
+}
+
+#benzsec .benz_ms_price_l {
+  margin: 20px;
+}
+
+#benzsec .benz_ms_price_l p {
+  font-size: 24px;
+  font-weight: 350;
+  font-family: serif;
+  text-decoration: underline;
+  text-decoration-thickness: 1.3px;
+}
+
+#benzsec .benz_ms_price_l table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#benzsec .benz_ms_price_l th,
+#benzsec .benz_ms_price_l td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#benzsec .benz_ms_price_l th {
+  background-color: #f7f7f7;
+}
+
+#benzsec .benz_ms_price_l td {
+  text-align: center;
+}
+
+#benzsec .benz_ms_price_l tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+/* Benz EQC */
+#benzsec .benz_me_intro {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+#benzsec .benz_me_intro_context {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+#benzsec .benz_me_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#benzsec > div.content.content-2 > div > div {
+    color: #000000;
+}
+
+#benzsec > div.content.content-2 > div > div > h2 {
+    font-size: 50px;
+    font-weight: 200;
+    font-family: serif;
+    color: #fff;
+}
+
+#benzsec > div.content.content-2 > div > div > p {
+    font-size: 47px;
+    font-weight: 250;
+    color: #fff;
+}
+
+#benzsec > div.content.content-2 > div > div > p:nth-child(4) {
+    font-size: 25px;
+    padding-top: 30%;
+    color: #fff;
+}
+
+#benzsec > div.content.content-2 > div > div > p:nth-child(5) {
+    font-size: 47px;
+    color: #fff;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_intro > div > p:nth-child(4) > span{
+    font-size: 13px;
+    color: #000000;
+    color: #fff;
+}
+
+#benzsec .benz_me_f img{
+    width: 100%;
+    height: auto;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_f > p:nth-child(1){
+    font-size: 25px;
+    font-weight: 250;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_f > hr{
+    width: 6%;
+    margin-top: 10px;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_f > p:nth-child(4){
+    font-family: serif;
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_f > p:nth-child(6){
+    margin-top: 10px;
+    padding-right: 35%;
+    font-size: 13px;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_life_cycle > div > p.benz_me_life_cycle_intro_1{
+    font-size: 22px;
+    color: #000000;
+}
+
+#benzsec .benz_me_life_cycle{
+    margin-top: 3em;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_life_cycle > div > hr{
+    width: 12%;
+    margin-top: 10px;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_life_cycle > div > p.benz_me_life_cycle_intro_2{
+    color: #000000;
+    font-size: 27px;
+    font-weight: 300;
+    padding-top: 0 !important;
+    font-family: serif;
+}
+
+#benzsec .benz_me_life_cycle_container {
+  display: flex;
+}
+
+#benzsec .benz_me_life_cycle_column {
+  padding: 17px;
+}
+
+#benzsec .left-column {
+  flex: 0 0 60%;
+}
+
+#benzsec .right-column {
+  flex: 0 0 40%;
+  font-size: 15px;
+  text-align: left;
+  padding: 2em 2em 2em 2em;
+}
+
+#benzsec img {
+  width: 100%;
+  height: auto;
+}
+
+#benzsec .benz_me_p_table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#benzsec .benz_me_p_table th,
+#benzsec .benz_me_p_table td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+#benzsec > div.content.content-2 > div.benz_me_p_table > p{
+    font-size: 20px;
+}
+
+/* Benz E-Class */
+#benzsec .benz_mec_intro {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+#benzsec .benz_mec_intro_context {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+#benzsec .benz_mec_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#benzsec > div.content.content-3 > div > div {
+    color: #000000;
+}
+
+#benzsec > div.content.content-3 > div > div > h3 {
+    font-size: 50px;
+    font-weight: 200;
+    font-family: serif;
+    color: #000000;
+}
+
+#benzsec > div.content.content-3 > div > div > p {
+    font-size: 47px;
+    font-weight: 250;
+    color: #000000;
+    font-weight: 350;
+}
+
+#benzsec > div.content.content-3 > div > div > p:nth-child(4) {
+    font-size: 25px;
+    padding-top: 42%;
+    color: #000000;
+}
+
+#benzsec > div.content.content-3 > div > div > p:nth-child(5) {
+    font-size: 47px;
+    color: #000000;
+}
+
+#benzsec > div.content.content-3 > div > div > p:nth-child(4) > span{
+    font-size: 14px;
+    color: #000000;
+}
+
+/* benz mec f */
+#benzsec .benz_mec_f > p:nth-child(1) {
+  font-size: 18px;
+  color: #767676;
+  margin-top: 1em;
+}
+
+#benzsec .benz_mec_f > p:nth-child(3) {
+  font-size: 40px;
+  font-family: serif;
+}
+
+#benzsec .benz_mec_f > p:nth-child(5) {
+  font-size: 20px;
+  padding-right: 25%;
+  color: #767676;
+  font-weight: 450;
+  text-align: justify;
+}
+
+#benzsec .benz_mec_f_img {
+  padding-top: 2em;
+  width: 100%;
+  height: auto;
+}
+
+#benzsec .benz_mec_f_2 > p:nth-child(1) {
+  font-size: 18px;
+  color: #767676;
+}
+
+#benzsec .benz_mec_f_2 > p:nth-child(3) {
+  font-size: 40px;
+  font-family: serif;
+}
+
+#benzsec .benz_mec_f_2 > p:nth-child(5) {
+  font-size: 20px;
+  padding-right: 25%;
+  color: #767676;
+  font-weight: 450;
+  text-align: justify;
+}
+
+#benzsec .benz_mec_interior_img {
+  padding-top: 2em;
+  width: 100%;
+  height: auto;
+}
+
+/* end of benz_mec_f */
+#benzsec .benz_mec_p_table{
+    margin-top: 1em;
+}
+
+#benzsec > div.content.content-3 > div.benz_mec_p_table > p{
+    font-size: 20px;
+}
+
+#benzsec > div.content.content-4 > h4{
+    font-size: 20px;
+}
+
+#benzsec > div.content.content-4 > p{
+    font-size: 17px;
+}
+
+#benzsec .benz_mec_p_table table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+}
+
+#benzsec .benz_mec_p_table th,
+#benzsec .benz_mec_p_table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#benzsec .benz_mec_p_table th {
+  background-color: #f2f2f2;
+}
+
+#benzsec .benz_mec_p_table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+#benzsec .pre_p_table_benz {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#benzsec .pre_p_table_benz th,
+#benzsec .pre_p_table_benz td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+#benzsec .pre_p_table_benz th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+#benzsec .pre_p_table_benz tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#benzsec > div.content.content-5 > div.benz_description{
+    margin-top: 1em;
+}
+
+#benzsec > div.content.content-5 > h5{
+    font-size: 27px;
+    font-weight: 350;
+}
+
+#benzsec > div.content.content-5 > div.benz_description p{
+    font-size: 23px;
+    font-weight: 350;
+}
+
+#benzsec > div.content.content-5 > div.benz_contact > img{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+#benzsec > div.content.content-5 > div.benz_contact{
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+#map {
+      width: 100%;
+      height: 400px;
+    }
+
+.kelvin_carservice_xxx {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+body > div.map_carservice > p{
+    margin: 0;
+}

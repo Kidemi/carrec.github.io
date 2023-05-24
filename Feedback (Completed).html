@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head> 
+		<title> Feedback </title>
+		<meta charset="utf-8">
+		<meta name="author" content="Andrew Voon Kian Fui">
+		<meta name="description" content=" Feedback ">
+		<meta name="keywords" content="Feedback">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+<body class="andrew_body">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Purchasing%20Guide%20(Completed).html">Purchasing Guide</a></li>
+			<li><a href="buycar.html">Buy Car</a></li>
+			<li><a href="Feedback%20(Completed).html">Feedback</a></li>
+		</ul>
+	</nav>
+	<header class="andrew_header">
+		<h1>Customer Feedback</h1>
+		<p>Thank you for taking time to provide feedback. We appreciate hearing from you and will review your comments carefully. </p>
+		<p><strong>Any comments left here will be anonymous, and we won't be able to respond to them.</strong></p>
+		<hr>
+	</header>
+	
+<article>
+	
+	<form class="andrew_form" name="customer feedback" method="post" action="mailto:andrewvoon0528@gmail.com" enctype="text/plain">
+	<table class="andrew_table">
+    <tr>
+		<td class="andrew_td">
+			<fieldset class="andrew_fieldset">
+			  <legend class="andrew_legend">Personal Information:</legend>
+			  <label for="name">Name:</label>
+			  <input class="andrew_name" type="text" name="name" id="name" placeholder="Please enter your full name" size="40" required="required"><br>
+			  <label for="email">Email (Optional):</label>
+			  <input class="andrew_email" type="email" name="email" id="email" size="40"><br>
+			  <label for="phone">Phone:</label>
+			  <input class="andrew_number" type="text" name="phone" id="phone" placeholder="(60)12345678" maxlength="12" required="required"><br>
+			  <label for="gender">Gender:</label>
+				<select class="andrew_select" id="gender" name="gender" required>
+					<option value="">Select</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>	
+			  
+			  <label for="dob">Date of Birth:</label>
+			  <input class="andrew_date" type="date" id="dob" name="dob" required><br>
+			  <label for="time">Time:</label>
+			  <input class="andrew_time" type="time" id="time" name="time" required><br>
+			
+				<p><strong>How did you hear about us?</strong></p>
+				
+				<input class="andrew_checkbox" type="checkbox" id="newspaper/magezine" name="hear-about[]" value="newspaper/magezine">
+				<label for="newspaper/magezine">Newspaper/magezine</label><br>
+
+				<input class="andrew_checkbox" type="checkbox" id="social-media" name="hear-about[]" value="social-media">
+				<label for="social-media">Social Media</label><br>
+
+				<input class="andrew_checkbox" type="checkbox" id="search-engine" name="hear-about[]" value="search-engine">
+				<label for="search-engine">Search Engine</label><br>	
+			</fieldset>
+
+			<fieldset class="andrew_fieldset">
+			  <legend class="andrew_legend">Your Feedback:</legend>
+			  <label for="feedback">How can we improve our services?</label>
+			  <textarea class="andrew_textarea" id="feedback" name="feedback" placeholder="Type your comments or query" rows="5" cols="30" required></textarea><br>
+							
+				<fieldset class="andrew_fieldset" data-role="controlgroup" data-type="horizontal">
+					<legend class="andrew_legend">Please rate:</legend>
+					<input class="andrew_radio" type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 stars">5 stars</label>
+					<input class="andrew_radio" type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">4 stars</label>
+					<input class="andrew_radio" type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">3 stars</label>
+					<input class="andrew_radio" type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">2 stars</label>
+					<input class="andrew_radio" type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">1 star</label>
+				</fieldset>
+			</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td class="andrew_td">
+			<fieldset class="andrew_fieldset">
+			  <legend class="andrew_legend">Submit</legend>
+			  <input class="andrew_submit" type="submit" value="Submit">
+			  <input class="andrew_reset" type="reset" value="Reset">
+			</fieldset>
+		</td>
+    </tr>
+	</table>
+	</form>
+</article>
+<footer class="leo-locatefoot">
+	<p>&copy; 2023 CarRec | Last Updated: 24 March 2023</p>
+</footer>
+</body>
+
+</html>
